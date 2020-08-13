@@ -1,0 +1,23 @@
+.body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: center;
+  width: 95%;
+  height: 100px;
+  background-color: #333333;
+  margin-top: 1%;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.body textarea {
+  resize: none;
+  width: 90%;
+  height: 50%;
+  background-color: #333333;
+  border: 0;
+  outline: none;
+  color: #fff;
+}

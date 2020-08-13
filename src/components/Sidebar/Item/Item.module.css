@@ -1,0 +1,28 @@
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+
+  color: #fff;
+  width: 80%;
+  height: 8%;
+  border-radius: 30px;
+
+}
+
+.body:hover {
+  background-color: #5a5a5a;
+}
+
+.body img {
+  width: 10%;
+  filter: brightness(0) invert(1);
+}
+
+.body span {
+  margin-left: 5%;
+  color: #fff;
+
+}
