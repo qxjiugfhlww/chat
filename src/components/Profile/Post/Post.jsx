@@ -3,12 +3,12 @@ import post from './Post.module.css';
 
 
 
-function Post() {
+function Post(props) {
   return (
     <div className={post.body}>
-      <span>Name LastName</span>
+      <span>{props.name}</span>
       <p className={post.text}>
-        123123123123213
+        {props.post}
       </p>
     </div>
   );
