@@ -21,3 +21,8 @@
   outline: none;
   color: #fff;
 }
+
+.body button {
+  width: 15%;
+  height: 30%;
+}

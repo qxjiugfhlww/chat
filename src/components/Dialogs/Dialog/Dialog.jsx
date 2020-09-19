@@ -4,7 +4,6 @@ import dialog from './Dialog.module.css';
 function Dialog(props) {
   return (
     <div className={dialog.body}>
-      {props.name}
 
     </div>
   );
